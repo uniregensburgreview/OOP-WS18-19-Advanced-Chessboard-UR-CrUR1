@@ -1,0 +1,21 @@
+Advanced Chessboard
+
+In dieser Aufgabe sollen Sie die Schachaufgabe aus der Vorlesung durch eine interaktive
+Komponente erweitern. Wie gehabt wird auf dem Bildschirm ein Schachbrett
+visualisiert. Beim Start der Anwendung wird eine Figur (Bauer) zufällig auf einem
+der Felder positioniert. Durch Mausinteraktion kann der Nutzer die Figur aufnehmen
+(Klick auf ein Feld mit Figur) und auf einem beliebigen anderen Feld absetzten
+(Klick auf ein freies Feld). Während der Bewegung - zwischen den Klicks - wird die
+Schachfigur immer an der aktuellen Position des Mauszeigers angezeigt, wandert
+also mit diesem mit. Für die Darstellung der Figur auf den Feldern bzw. neben dem
+Cursor wird die Bilddatei pawn.png genutzt. Lesen Sie sich die Aufgabenstellung,
+insbesondere die Bemerkungen zu den öffentlichen Schnittstellen der verschiedenen
+Klassen, durch, bevor Sie mit dem Lösen der Aufgabe beginnen.
+
+Mögliche Erweiterungen
+Diese Aufgabe wird in den Übungssitzungen gemeinsam mit den Tutoren gelöst.
+Darüber hinaus können Sie (optional!) die fertige Lösung gerne kreativ weiter entwickeln.
+Versuchen Sie die Bewegung der Figur auf valide Felder zu beschränken.
+Ein Bauer kann sich - im Normalfall - nur ein Feld weit bewegen. Möglich wäre es
+auch, die angrenzenden Felder - nach Anklicken der Spielfigur, farblich hervorzuheben
+um die erlaubten Zielfelder zu markieren.
